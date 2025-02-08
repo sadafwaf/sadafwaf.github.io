@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark urban background */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(106, 13, 173, 0.8); /* Ballas Purple Glow */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    color: #6a0dad;
+    text-shadow: 0 0 10px #6a0dad, 0 0 20px #a100ff;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #a100ff;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Steps Section */
+.steps {
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Signup Section */
+.signup {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(161, 0, 255, 0.5);
+}
+
+.signup input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup button {
+    background: linear-gradient(45deg, #6a0dad, #a100ff);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.signup button:hover {
+    background: linear-gradient(45deg, #a100ff, #6a0dad);
+    transform: scale(1.05);
+}
+
+/* Back Home Button */
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #6a0dad, #a100ff);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(161, 0, 255, 0.7);
+}
+
+.back-home:hover {
+    background: linear-gradient(45deg, #a100ff, #6a0dad);
+    box-shadow: 0px 4px 20px rgba(161, 0, 255, 1);
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #6a0dad;
+    text-align: center;
+}
